@@ -1,0 +1,19 @@
+2024-05-30 11:48:07,425 - my_script - DEBUG - Script Started
+2024-05-30 11:48:07,425 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: thenlper/gte-large
+2024-05-30 11:48:07,427 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-05-30 11:48:08,219 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/modules.json HTTP/1.1" 200 0
+2024-05-30 11:48:08,482 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/config_sentence_transformers.json HTTP/1.1" 404 0
+2024-05-30 11:48:08,932 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/README.md HTTP/1.1" 200 0
+2024-05-30 11:48:09,240 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/modules.json HTTP/1.1" 200 0
+2024-05-30 11:48:09,497 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+2024-05-30 11:48:09,751 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/config.json HTTP/1.1" 200 0
+2024-05-30 11:48:11,253 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /thenlper/gte-large/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2024-05-30 11:48:11,561 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/thenlper/gte-large/revision/main HTTP/1.1" 200 146840
+2024-05-30 11:48:11,861 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2024-05-30 11:48:14,263 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bvr-clustur-ttqitchv.weaviate.network:443
+2024-05-30 11:48:14,870 - urllib3.connectionpool - DEBUG - https://bvr-clustur-ttqitchv.weaviate.network:443 "GET /v1/meta HTTP/1.1" 200 None
+2024-05-30 11:48:14,872 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): pypi.org:443
+2024-05-30 11:48:14,990 - urllib3.connectionpool - DEBUG - https://pypi.org:443 "GET /pypi/weaviate-client/json HTTP/1.1" 200 53060
+2024-05-30 11:48:15,005 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): bvr-clustur-ttqitchv.weaviate.network:443
+2024-05-30 11:48:15,016 - my_script - DEBUG - All files named : [] will be uploaded
+2024-05-30 11:48:15,016 - my_script - DEBUG - Total time taken for all uploads (in sec): 7.152557373046875e-07
