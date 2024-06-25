@@ -1,0 +1,16 @@
+# Aspect Generation
+/Aspect_generation/atenv
+/Aspect_generation/.env
+
+#BVR Pipeline
+/BVR_pipeline/atenv
+
+# BVR VECTOR DB
+bvr_vectordb/.env
+bvr_vectordb/atenv
+
+# Snippets Genration
+Akshay_Snippets_Generations/__pycache__
+Akshay_Snippets_Generations/env
+
+
